@@ -80,3 +80,4 @@ def generate_password(length, chars_1):
 print('Cгенерированные пароли:')
 for _ in range(passwords):
     print(generate_password(length, chars_1))
+print('Генерация паролей закончена.')
